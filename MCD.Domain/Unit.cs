@@ -15,9 +15,9 @@ namespace MCD.Domain
             this.Value = Value;
         }
 
-        public string DoOneThingWithTwoDoubles(string input) {
+        public string ConvertValues(string input) {
             if (input == String.Empty) {
-                return $"Dictionary keys: {String.Join(' ', Dict.Keys)}\n";
+                return $"Usage:\n\tuse 2 Dictionary keys and 1 number\n\nDictionary keys:\n\t{String.Join(' ', Dict.Keys)}\n";
             }
 
             int status = 0;
