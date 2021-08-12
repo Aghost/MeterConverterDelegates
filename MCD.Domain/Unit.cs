@@ -22,7 +22,6 @@ namespace MCD.Domain
 
             int status = 0;
             double[] dubs = new Double[2];
-
             StringBuilder sb = new ();
 
             foreach (string str in input.Split(' ')) {

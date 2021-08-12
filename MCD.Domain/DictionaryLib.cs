@@ -21,12 +21,5 @@ namespace MCD.Domain
             {"pm", 1000000000000000 },
             {"em", 1000000000000000000 }
         };
-
-        public static Dictionary<string, double> DoThingLib = new() {
-            {"mm", -3},
-            {"cm", -2},
-            {"m", 0},
-            {"km", 3},
-        };
     }
 }
