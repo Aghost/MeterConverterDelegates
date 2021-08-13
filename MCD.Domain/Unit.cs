@@ -9,7 +9,10 @@ namespace MCD.Domain
         private Func<double, double, double, double> f;
         public double Value;
 
-        public Unit(Dictionary<string, double> Dict, Func<double, double, double, double> f, double Value = 0) {
+        public Unit(
+                Dictionary<string, double> Dict,
+                Func<double, double, double, double> f,
+                double Value = 0) {
             this.Dict = Dict;
             this.f = f;
             this.Value = Value;
@@ -22,6 +25,7 @@ namespace MCD.Domain
 
             int status = 0;
             double[] dubs = new Double[2];
+
             StringBuilder sb = new ();
 
             foreach (string str in input.Split(' ')) {
