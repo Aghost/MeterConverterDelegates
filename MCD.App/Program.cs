@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using static System.Console;
-using MCD.Domain;
+﻿using static System.Console;
 using static MCD.Domain.ExpressionLib;
 using static MCD.Domain.DictionaryLib;
+using MCD.Domain;
 
 Unit converter = new (LengthUnits, ConvertUnit);
 string input;
